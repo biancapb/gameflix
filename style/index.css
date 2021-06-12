@@ -1,0 +1,57 @@
+/*variáveis dentro do css*/
+:root {
+    --violeta:#9400D3;
+    --magenta: #8B008B;
+    --preta:#141414;
+    --ciano: #00EEEE;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(245, 245, 245);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 0.5%;
+    color: var(--magenta);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--ciano);
+}
+
+/*caixa princial*/
+.jogo-principal {
+    height: 400px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/overwatch-capa.jpg');
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
