@@ -43,11 +43,11 @@ header nav a:hover {
     color: var(--ciano);
 }
 
-/*caixa princial*/
+/*caixa principal*/
 .jogo-principal {
     height: 500px;
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/overwatch-capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/overwatch-capa.jpg');
     background-size: cover;
 
     display: flex;
